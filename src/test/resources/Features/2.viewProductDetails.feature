@@ -1,5 +1,5 @@
 
-Feature: Visibility of product details
+Feature: Visibility of product detail
   Scenario Outline: Clicking on products on the first page to see product details
     When User clicks on product <product_number>
     Then Product details for product <product_number> should be visible
